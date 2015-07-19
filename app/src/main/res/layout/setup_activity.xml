@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Space
+        android:layout_weight="3"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <Space
+            android:layout_weight="3"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_sender_id" />
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="25dip" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/sender_id"
+            android:id="@+id/sender_id_field" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/get_registration_id"
+            android:id="@+id/submit_sender_id" />
+        <Space
+            android:layout_weight="3"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip" />
+    </LinearLayout>
+    <Space
+        android:layout_weight="3"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent" />
+</LinearLayout>
